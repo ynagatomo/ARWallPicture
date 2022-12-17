@@ -59,6 +59,13 @@ you can modify it.
 
 - Blender file: `assets/panel1_1.blend`
 
+## Related apps
+
+1. ImgGenSD2: https://github.com/ynagatomo/ImgGenSD2
+1. AR Diffusion Museum: https://github.com/ynagatomo/ARDiffMuseum
+
+![Image](assets/relatedapps.jpg)
+
 ## References
 
 none
