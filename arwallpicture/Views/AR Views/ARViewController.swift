@@ -308,8 +308,9 @@ extension ARViewController {
 
         let (scaleX, scaleZ) = calcScale(planeWidth: plane.width,
                                          planeHeight: plane.height)
+        let scaleY = min(scaleX, scaleZ)
 
-        model.scale = SIMD3<Float>(scaleX, 1.0, scaleZ)
+        model.scale = SIMD3<Float>(scaleX, scaleY, scaleZ)
         model.transform.rotation = plane.rotation
         model.transform.translation = plane.translation
 
