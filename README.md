@@ -39,6 +39,19 @@ This project provides a minimal UI. Feel free to extend it as you like and creat
 
 ![Image](assets/ss2_ui.jpg)
 
+## Vertex Shader
+
+This project contains a vertex shader to play waving geometry animation in AR.
+It uses a custom material and geometry modifier of RealityKit 2.
+
+- RealityKit: CustomMaterial https://developer.apple.com/documentation/realitykit/custommaterial
+- RealityKit: GeometryModifier https://developer.apple.com/documentation/realitykit/custommaterial/geometrymodifier
+
+Please create your shader and replace with it.
+
+![Image](assets/shader1.png)
+![Image](assets/shader2.png)
+
 ## Consideration
 
 ### Visual Effects
